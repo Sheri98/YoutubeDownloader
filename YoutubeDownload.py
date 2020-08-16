@@ -2,8 +2,6 @@ import pytube
 import re
 from pytube import Playlist
 from pytube import YouTube
-#def progressmeter(stream, chunk, file_handle, bytes_remaining):
-   # print(round((1-bytes_remaining/single_Vide.filesize)*100, 3), '% done...')
 def PlayListDownload():
     URL = str(input("Enter The Playlist Url:"))
     PATH = str(input("Enter The Path To be Downloaded To:"))
